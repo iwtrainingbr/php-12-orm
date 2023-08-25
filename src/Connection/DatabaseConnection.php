@@ -19,9 +19,9 @@ class DatabaseConnection
 
         $connection = DriverManager::getConnection([
             'driver' => 'pdo_mysql',
-            'dbname' => 'db_silcar',
-            'user' => 'alessandro', //root
-            'password' => 'livre', //''
+            'dbname' => $_ENV['DB_NAME'],
+            'user' => $_ENV['DB_USER'],
+            'password' => $_ENV['DB_PASS'], 
         ], $config);
 
         return new EntityManager($connection, $config);

@@ -22,7 +22,7 @@ class Veiculo
     #[ORM\Column(type: 'integer', length: 4)]
     public int $ano;
 
-    #[ORM\Column(length: 10)]
+    #[ORM\Column(length: 30)]
     public string $cor;
 
     #[ORM\Column(length: 8, unique: true)]

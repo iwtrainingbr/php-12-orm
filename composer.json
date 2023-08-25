@@ -8,6 +8,8 @@
         "doctrine/orm": "^2.16",
         "doctrine/dbal": "^3.6",
         "symfony/yaml": "^6.3",
-        "symfony/cache": "^6.3"
+        "symfony/cache": "^6.3",
+        "vlucas/phpdotenv": "^5.5",
+        "fakerphp/faker": "^1.23"
     }
 }
